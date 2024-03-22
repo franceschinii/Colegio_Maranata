@@ -1,0 +1,186 @@
+/*===========================
+  Theme: School
+============================ */
+/*________  blue ________  */
+.btn.btn-secondary,
+.bg-primary,
+.list-group-item.active,
+.list-group-item:hover,
+.accordion-button,
+footer,
+.nav-pills .nav-link,
+.nav-tabs .nav-link,
+.navbar-custom ul.nav ul.dropdown-menu,
+.pricing-palden .pricing-deco,
+.panel-heading a.collapsed,
+.service h4,
+.team-item:hover .team-caption,
+.gallery-thumb .link,
+.pagination .page-link,
+.breadcrumb,
+.label-default,
+.pager li > a, .pager li > span,
+.fc-direction-ltr .fc-button-group>.fc-button:not(:first-child),
+.fc-direction-ltr .fc-button-group>.fc-button:not(:last-child),
+.fc-button.fc-button-primary,
+.fc .fc-button:not(:disabled), .fc a[data-navlink], .fc-event.fc-event-draggable, .fc-event[href],
+.form-check-input:checked
+{background-color:#264653;}
+
+ h1, a,
+.quote-test:before,
+.quote-test i,
+.quote-test small,
+#blog-page h6,
+#blog-page blockquote:before,
+#contact i,
+.latest-caption h4
+{color:#264653;}
+
+.text-primary
+{color:#264653!important;}
+
+.form-control:focus,
+.btn.btn-secondary,
+#carousel-about img,
+.team-item:hover img,
+.gallery-thumb:hover .overlay-mask,
+#call-to-action,
+.form-check-input:checked
+{border-color:#264653;}
+
+/* SVG path */
+#deco-clouds path {
+	fill: #264653;
+	stroke: #264653;
+}
+
+/*________  Red _______  */
+.nav-item:hover a.nav-link,
+.bg-secondary,
+.section-heading h2,.btn,
+.btn-primary,
+.slick-dots li button,
+.slick-dots li button:hover,
+.slick-prev,.slick-next,
+.pager li>a:hover,
+.social-media a i,
+.back-to-top i:hover,
+.pagination .page-link:hover,
+.pagination .page-link:focus,
+.pager li > a:hover,
+.pager li > a:focus,
+.navbar-brand-centered:hover,
+.navbar-brand-centered:focus,
+.navbar-toggle:focus,
+.navbar-toggle:active,
+.navbar-toggle:hover,
+.navbar-custom ul.nav li a:hover,
+.nav-item a.active,
+.navbar-custom ul.nav ul.dropdown-menu li a:hover,
+.navbar-custom ul.nav ul.dropdown-menu li a:focus,
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover,
+.page-item.active .page-link, .page-item.active .page-link:focus,
+.nav-pills>li.active>a,
+.nav.nav-pills > li > a:focus,
+.nav.nav-pills > li > a:hover,
+.nav.nav-pills > li > .active,
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link.active:hover,
+.nav-tabs .nav-link.active:focus,
+.nav-tabs .nav-link.active,
+.pricing-item:hover .pricing-deco,
+.blog-tags a:hover,
+.fc .fc-button-primary:hover,
+.fc .fc-list-event-dot
+{background-color:#870b19;}
+
+a:hover, a:focus,
+.breadcrumb a:hover,
+.breadcrumb a:focus,
+.comment-heading small,
+#about .media i,
+.latest-caption h4:hover
+{color:#870b19;}
+
+.btn{border-color:#870b19;}
+
+/*________  gradient________  */
+
+.img-effect:hover {background: linear-gradient(-45deg, #870b19 0%,#ffaa02 100%);}
+
+/*________  Green ________  */
+
+.section-heading h2:before,
+#about .media i:hover,
+footer i,
+.smaller.social-media a i:hover,
+footer a,
+.post-info i,
+.gallery-thumb i:hover
+ {color:#009000;}
+
+.navbar-nav,
+.accordion-button:hover, 
+.accordion-button:not(.collapsed),  
+.service:hover h4,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover,
+.team-item .team-caption,
+.navbar-custom ul.nav ul.dropdown-menu li a,
+.panel-heading a,
+.panel-heading a:hover,
+.nav-pills .nav > li > a:focus ,
+.navbar-brand-centered,
+.navbar-header,
+.btn:hover,.btn:focus,
+.btn-primary:hover,
+.btn-primary:focus,
+.navbar,
+.slick-prev:hover, .slick-next:hover,
+.back-to-top i,
+#instafeed .likes,
+.social-media a i:hover,
+.blog-tags a,
+.date-category,
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover
+{background-color:#009000;}
+
+
+.team-item img,
+.elements h5,
+#layerslider,
+.btn:hover,.btn:focus,
+.blog.jumbotron,
+.comment,
+.header-text,
+.open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover
+{border-color:#009000;}
+ 
+/*________  Secondary red ________  */
+
+section.color-section,
+.blog-row,
+#activities .tab-content,
+.color_block,
+.cloud-divider,
+#blog-page blockquote,
+#layerslider,
+.comment,
+.table-striped,
+.dropdown-menu
+{background: #f5f5f9;}
+
+
+/* SVG Path */
+#deco-clouds1.head path {
+	fill: #f5f5f9;
+	stroke: #f5f5f9;
+}
+/*________  others ________  */
+
+.breadcrumb>.active{color:#a09e9e;}
+footer a {color:#cecece;}
+
+
+ 
