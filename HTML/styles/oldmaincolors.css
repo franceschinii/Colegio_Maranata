@@ -1,7 +1,7 @@
 /*===========================
   Theme: Maincolors
 ============================ */
-/*________  Dark navy blue  ________  */
+/*________  Purple________  */
 .btn.btn-secondary,
 .bg-primary,
 .list-group-item.active,
@@ -26,7 +26,7 @@ footer,
 .fc-button.fc-button-primary,
 .fc .fc-button:not(:disabled), .fc a[data-navlink], .fc-event.fc-event-draggable, .fc-event[href],
 .form-check-input:checked
-{background-color:#323c64;}
+{background-color:#34327C;}
 
  h1,a,
 .quote-test:before,
@@ -36,10 +36,10 @@ footer,
 #blog-page blockquote:before,
 #contact i,
 .latest-caption h4
-{color:#323c64;}
+{color:#34327C;}
 
 .text-primary
-{color:#323c64!important;}
+{color:#34327C!important;}
 
 .form-control:focus,
 .btn.btn-secondary,
@@ -48,15 +48,15 @@ footer,
 .gallery-thumb:hover .overlay-mask,
 #call-to-action,
 .form-check-input:checked
-{border-color:#323c64;}
+{border-color:#34327C;}
 
 /* SVG path */
 #deco-clouds path {
-	fill: #323c64;
-	stroke: #323c64;
+	fill: #34327C;
+	stroke: #34327C;
 }
 
-/*________  Deep midnight blue  ________  */
+/*________  Pink________  */
 .nav-item:hover a.nav-link,
 .bg-secondary,
 .section-heading h2,.btn,
@@ -94,7 +94,7 @@ footer,
 .blog-tags a:hover,
 .fc .fc-button-primary:hover,
 .fc .fc-list-event-dot
-{background-color:#1b285d;}
+{background-color:#d12881;}
 
 a:hover, a:focus,
 .breadcrumb a:hover,
@@ -102,15 +102,15 @@ a:hover, a:focus,
 .comment-heading small,
 #about .media i,
 .latest-caption h4:hover
-{color:#1b285d;}
+{color:#d12881;}
 
-.btn{border-color:#1b285d;}
+.btn{border-color:#d12881;}
 
 /*________  gradient________  */
 
-.img-effect:hover {background: linear-gradient(-45deg, #1b285d 0%,#FECB02 100%);}
+.img-effect:hover {background: linear-gradient(-45deg, #d12881 0%,#EC9600 100%);}
 
-/*________  Golden yellow  ________  */
+/*________  Yellow________  */
 
 .section-heading h2:before,
 #about .media i:hover,
@@ -120,7 +120,7 @@ footer a,
 .post-info i,
 .breadcrumb>.active,
 .gallery-thumb i:hover
- {color:#FECB02;}
+ {color:#EC9600;}
  
 .navbar-nav,
 .accordion-button:hover,
@@ -146,7 +146,7 @@ footer a,
 .blog-tags a,
 .date-category,
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover
-{background-color:#FECB02;}
+{background-color:#EC9600;}
 
 
 .team-item img,
@@ -157,9 +157,9 @@ footer a,
 .comment,
 .header-text,
 .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover
-{border-color:#FECB02;}
+{border-color:#EC9600;}
  
-/*________  White ________  */
+/*________  Secondary yellow________  */
 
 section.color-section,
 .blog-row,
@@ -171,13 +171,13 @@ section.color-section,
 .comment,
 .table-striped,
 .dropdown-menu
-{background: #ffffff;}
+{background: #fdfbe8;}
 
 
 /* SVG Path */
 #deco-clouds1.head path {
-	fill: #ffffff;
-	stroke: #ffffff;
+	fill: #fdfbe8;
+	stroke: #fdfbe8;
 }
 
 
