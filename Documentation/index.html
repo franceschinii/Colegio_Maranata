@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <!--[if lt IE 7 ]>
-<html class="ie ie6" lang="en">
+<html class="ie ie6" lang="pt-br">
    <![endif]-->
    <!--[if IE 7 ]>
-   <html class="ie ie7" lang="en">
+   <html class="ie ie7" lang="pt-br">
       <![endif]-->
       <!--[if IE 8 ]>
-      <html class="ie ie8" lang="en">
+      <html class="ie ie8" lang="pt-br">
          <![endif]-->
          <!--[if (gte IE 9)|!(IE)]><!-->
-         <html lang="en">
+         <html lang="pt-br">
             <!--<![endif]-->
             <head>
                <meta charset="utf-8">
@@ -26,6 +26,10 @@
                <link rel="stylesheet" type="text/CSS" href="syntax-highlighter/styles/shCore.css" media="all">
                <link rel="stylesheet" type="text/CSS" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
                <!-- Google fonts -->
+               <link rel="preconnect" href="https://fonts.googleapis.com">
+               <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+               <link href='https://fonts.googleapis.com/css?family=Pangolin' rel='stylesheet'>
+               <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
                <link href='https://fonts.googleapis.com/css?family=Lato:400,700,800' rel='stylesheet' type='text/css'>
                <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:700,900' rel='stylesheet' type='text/css'>
                <!-- Theme CSS -->
@@ -206,7 +210,7 @@
                            <p>In the top of the HTML files you can find the lines bellow
                            <pre class="brush: css">
 	  <!-- Color Style CSS -->
-      <link href="styles/maincolors.css" rel="stylesheet">
+      <link href="styles/colegiomaranata.css" rel="stylesheet">
 
 		</pre>
                            The color skin "Main Colors" is the default color, you can replace this by the name of other color schemes found in the folder <em>styles</em>.</p>	
@@ -311,9 +315,9 @@
                         <li>Now that you have your Api Key and Calendar ID, Open calendar_edit.js file inside js folder and replace the API Key and Calendar ID on this file</li>
                         <pre>	
                         //Google API key:
-                        googleCalendarApiKey: '<strong>YourAPIkeyHere</strong>',
-                        // Calendar ID:
-                        events: '<strong>yourID@group.calendar.google.com</strong>',
+                        googleCalendarApiKey: '<strong>AIzaSyCNTCNspur1oclwNx3CuLaxid6e4HaTl8g</strong>',
+                        // Calendar ID: 
+                        events: '<strong>2e744039a9343ed6285bd19c96824771289cb8a70ea82b37e24211a6b9437485@group.calendar.google.com</strong>',
                         </pre>
                         You can also change the language of your Calendar by changing the line bellow, the Calendar uses english by default, for other languages you can use for example "es" for Spanish, "pt" for Portuguese, "ru" for Russian.
                         <pre>
@@ -340,7 +344,7 @@
                         <p>To change the Maps section with your own location you can use this website to find your own latitude and longitude: <a href="http://latlong.net">http://www.latlong.net/</a> then you can replace the longitude and latitude numbers in the file main.js located inside the js folder on the line 12.</p>
                         <pre class="brush: js">
                         //Open street  Map
-                        var coord = [40.738270, -74.008911]; // <--- coordinates here
+                        var coord = [-23.514140, -47.493070]; // <--- coordinates here
                         </pre>										
                         <hr>
 						<h4>Removing the dark overlay</h4>

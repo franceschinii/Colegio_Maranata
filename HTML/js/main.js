@@ -22,7 +22,7 @@ Author URI: http://themeforest.net/user/ingridk
 		var mapcanvas = document.getElementById("map-canvas");
 		if(mapcanvas){
 		// Element exists
-		var coord = [40.738270, -74.008911]; // <--- coordinates here
+		var coord = [-23.514140, -47.493070]; // <--- coordinates here
 
 		var map = L.map('map-canvas', { scrollWheelZoom:false}).setView(coord, 18);
 
