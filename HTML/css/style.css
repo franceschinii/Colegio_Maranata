@@ -31,20 +31,6 @@ Last change: 06th June 2023
   General and Typography
 ============================ */
 
-/*==================
-    Fonts Import    
-==================*/
-
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
-
-.pangolin-regular {
-    font-family: "Pangolin", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-/*==================*/
-
 html{
 	scroll-behavior: auto!important;
      width: 100%;
@@ -54,7 +40,7 @@ html{
 body{
      width: 100%;
 	 position: relative;
-     font-family: 'Lato',sans-serif;
+     font-family: 'Pangolin',cursive;
      font-weight: 400;
      color:#696767;
 }
@@ -66,7 +52,7 @@ body{
  h1 {
      font-size: 58px;
      margin-bottom: 10px;
-     font-family: 'Alegreya sans',serif;
+     font-family: "LoveYaLikeASister",cursive;
      margin-top: 20px;
      line-height: 55px;
      font-weight: 800;
@@ -74,7 +60,7 @@ body{
 }
  h2 {
      font-size: 55px;
-     font-family: 'Alegreya sans',serif;
+     font-family: "LoveYaLikeASister",cursive;
      color:#333;
      line-height: 1.2;
      font-weight: 800;
@@ -82,7 +68,7 @@ body{
 	 margin-top:0;
 }
  h3 {
-     font-family: 'Alegreya sans',serif;
+     font-family: "LoveYaLikeASister",cursive;
      color:#333;
      font-weight:800;
      font-size: 43px;
@@ -90,7 +76,7 @@ body{
 	 margin-bottom:20px;
 }
  h4 {
-     font-family: 'Alegreya sans',serif;
+     font-family: 'Pangolin',cursive;
      font-size: 30px;
      border-radius:10px;
      color:#333;
@@ -100,7 +86,7 @@ body{
 }
  h5 {
      font-size: 28px;
-     font-family: 'Alegreya sans',serif;
+     font-family: 'Pangolin',cursive;
      color:#333;
 	 margin-bottom:20px;
 }
@@ -108,13 +94,13 @@ body{
      font-size: 22px;
      margin-bottom: 20px;
      text-transform: uppercase;
-     font-family: 'Lato',sans-serif;
+     font-family: 'Pangolin',cursive;
      font-weight: 800;
      color:#333;
 }
  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
      text-transform:none;
-     font-family: 'Lato',sans-serif;
+     font-family: 'Pangolin',cursive;
 }
 /* Links */
  a {
@@ -2591,6 +2577,23 @@ textarea.form-control {
 	margin-left: -12px;
 	border-right-color: #fff;
 	}
+
+/*
+===========================
+        Font Import
+============================ */
+
+@font-face {
+    font-family: 'Pangolin';
+    src: url('../fonts/Pangolin/Pangolin-Regular.ttf');
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'LoveYaLikeASister';
+    src: url('../fonts/LoveYaLikeASister/LoveYaLikeASister-Regular.ttf');
+    font-style: normal;
+}
 
 /*=========================== Media Queries ============================ */
 /************ min width 1400px *************/
