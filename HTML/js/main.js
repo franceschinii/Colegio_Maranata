@@ -156,6 +156,7 @@ Author URI: http://themeforest.net/user/ingridk
 		});
 		$('.slider-4').slick({
 			dots: true,
+			autoplay: true,
 			autoplaySpeed: 2000,
 			slidesToShow: 4,
 			responsive: [{
