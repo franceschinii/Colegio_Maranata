@@ -9,14 +9,14 @@ jQuery(document).ready(function ($) {
             if (!$.trim($(this).val())) { //if this field is empty 
                 $(this).css('background-color', 'rgb(255 222 222 / 21%)');
                 proceed = false; //set do not proceed flag
-					document.getElementById('error-message').innerHTML = '<div class="alert alert-danger mb-4">Please fill all the required fields</div>';
+					document.getElementById('error-message').innerHTML = '<div class="alert alert-danger mb-4">Por favor preenche todos os campos.</div>';
             }
             //check invalid email
             var email_reg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
             if ($(this).attr("type") === "email" && !email_reg.test($.trim($(this).val()))) {
                 $(this).css('background-color', 'rgb(255 222 222 / 21%)'); 
                 proceed = false; //set do not proceed flag	
-				document.getElementById('error-message').innerHTML = '<div class="alert alert-danger mb-4">Please enter a valid email</div>';
+				document.getElementById('error-message').innerHTML = '<div class="alert alert-danger mb-4">Por favor insira um endereço de email válido.</div>';
 			
             }
         });
@@ -33,9 +33,9 @@ jQuery(document).ready(function ($) {
             //Ajax post data to server
             $.post('php/sendmail.php', post_data, function(response) {
                 if (response.type === 'error') { //load json data from server and output message     
-                    var output = '<br><br><div class="alert alert-danger">Could not send mail! Please check your PHP mail configuration.</div>';
+                    var output = '<br><br><div class="alert alert-danger">Não foi possível enviar o email, por favor cheque a configuração PHP do seu email.</div>';
                 } else {
-                    var output = '<br><br><div class="alert alert-success" role="alert">Thank you for your message. We will contact you soon.</div>';
+                    var output = '<br><br><div class="alert alert-success" role="alert">Obrigado pela sua mensagem! Retornaremos o contato em breve.</div>';
                     //reset values in all input fields and hide error
                     $("#contact_form input, #contact_form textarea").val('');
 					 $("#error-message").hide();

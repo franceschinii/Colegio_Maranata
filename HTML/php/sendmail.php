@@ -1,14 +1,14 @@
 <?php
 if($_POST)
 {
-	$to_email   	= "youremail@email.com"; //Recipient email, Replace with own email here
+	$to_email   	= "contato@colegiomaranata.com.br"; //Recipient email, Replace with own email here
 	
 	//check if its an ajax request, exit if not
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
 		
 		$output = json_encode(array( //create JSON data
 			'type'=>'error', 
-			'text' => 'Sorry Request must be Ajax POST'
+			'text' => 'Desculpa, a requisição precisa ser Ajax POST'
 		));
 		die($output); //exit script outputting json data
     } 
@@ -21,19 +21,19 @@ if($_POST)
 	
 	//additional php validation
 	if(strlen($user_name)<2){ // If length is less than 4 it will output JSON error.
-		$output = json_encode(array('type'=>'error', 'text' => '<p>Name is too short or empty!</p>'));
+		$output = json_encode(array('type'=>'error', 'text' => '<p>Nome muito curto ou vazio!</p>'));
 		die($output);
 	}
 	if(!filter_var($user_email, FILTER_VALIDATE_EMAIL)){ //email validation
-		$output = json_encode(array('type'=>'error', 'text' => '<p>Please enter a valid email!</p>'));
+		$output = json_encode(array('type'=>'error', 'text' => '<p>Por favor insira um endereço de email válido!</p>'));
 		die($output);
 	}
 	if(strlen($subject)<3){ //check emtpy subject
-		$output = json_encode(array('type'=>'error', 'text' => '<p>Subject is required</p>'));
+		$output = json_encode(array('type'=>'error', 'text' => '<p>Assunto é necessário.</p>'));
 		die($output);
 	}
 	if(strlen($message)<3){ //check emtpy message
-		$output = json_encode(array('type'=>'error', 'text' => '<p>Too short message! Please enter something.</p>'));
+		$output = json_encode(array('type'=>'error', 'text' => '<p>Mensagem muito curta, por favor insira uma mensagem.</p>'));
 		die($output);
 	}
 	
@@ -50,11 +50,11 @@ if($_POST)
 	if(!$send_mail)
 	{
 		//If mail couldn't be sent output error. Check your PHP email configuration (if it ever happens)
-		$output = json_encode(array('type'=>'error', 'text' => '<p>Could not send mail! Please check your PHP mail configuration.</p>'));
+		$output = json_encode(array('type'=>'error', 'text' => '<p>Não foi possível enviar o email, por favor cheque a configuração PHP do seu email.</p>'));
 		die($output);
 	}else{
 		$output = json_encode(array('type'=>'message', 'text' => '<div class="alert alert-success" role="alert">
-		Hi '.$user_name .', Thank you very much for your message,we will contact you soon.</div>'));
+		Hi '.$user_name .',Obrigado pela sua mensagem, te responderemos em breve.</div>'));
 		die($output);
 	}
 }

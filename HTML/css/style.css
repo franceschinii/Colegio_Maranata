@@ -214,7 +214,7 @@ body{
      font-size: 16px;
      text-align: center;
      transition: background .2s ease-in-out;
-     font-family: 'Lato',sans-serif;
+     font-family: 'Pangolin',cursive;
      color:#fff!important;
      letter-spacing: 0.2px;
      font-weight:600;
@@ -1715,7 +1715,7 @@ body{
      padding: 10px;
      border:0px;
 	 font-weight:600;
-	 font-family: 'Lato',sans-serif;
+	 font-family: 'Pangolin',cursive;
 	 margin-bottom:8px;
 	 font-size: 18px;
      transition: all .2s ease-in-out;
