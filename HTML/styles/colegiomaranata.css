@@ -182,3 +182,9 @@ section.color-section,
 
 
  
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
