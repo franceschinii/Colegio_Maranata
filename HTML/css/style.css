@@ -1431,8 +1431,8 @@ body{
 }
 /* Big triangle SVG divider */
  .trianglePath1 {
-     fill: #fff;
-     stroke: #fff;
+     fill: #ede5da;
+     stroke: #ede5da;
 }
 /* Cloud top divider */
  #deco-clouds1.head {
