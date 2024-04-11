@@ -191,8 +191,7 @@ Author URI: http://themeforest.net/user/ingridk
 
 		$('.navbar-nav>li:not(.dropdown)').on('click', function(){
 			$('.navbar-collapse').collapse('hide');
-		});
-			 
+		}); 
 		
     }); // end document ready
 

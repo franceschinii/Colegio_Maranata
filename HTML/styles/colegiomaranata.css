@@ -71,8 +71,11 @@ footer,
 .pagination .page-link:focus,
 .pager li > a:hover,
 .pager li > a:focus,
+
+/*
 .navbar-brand-centered:hover,
 .navbar-brand-centered:focus,
+*/
 .navbar-toggle:focus,
 .navbar-toggle:active,
 .navbar-toggle:hover,
@@ -173,6 +176,9 @@ section.color-section,
 .dropdown-menu
 {background: #ffffff;}
 
+.nav-item a.active {
+	color: #fff!important;
+}
 
 /* SVG Path */
 #deco-clouds1.head path {
