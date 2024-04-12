@@ -1438,6 +1438,10 @@ body{
     fill: #59b2dc;
     stroke: #59b2dc;
 }
+.trianglePath3 {
+    fill: #FEF9E5;
+    stroke: #FEF9E5;
+}
 /* Cloud top divider */
  #deco-clouds1.head {
      margin-top: -100px;
