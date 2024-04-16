@@ -109,6 +109,10 @@ a:hover, a:focus,
 
 .btn{border-color:#1b285d;}
 
+/*________  Off white  ________  */
+
+#prices{background-color: #ede5da}
+
 /*________  gradient________  */
 
 .img-effect:hover {background: linear-gradient(-45deg, #1b285d 0%,#FECB02 100%);}
@@ -151,7 +155,6 @@ footer a,
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover
 {background-color:#FECB02;}
 
-
 .team-item img,
 .elements h5,
 #layerslider,
@@ -161,6 +164,10 @@ footer a,
 .header-text,
 .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover
 {border-color:#FECB02;}
+
+/*________  Pale yellow  ________  */
+
+#gallery {background-color:#FEF9E5;}
  
 /*________  White ________  */
 
