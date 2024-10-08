@@ -1,7 +1,7 @@
 <?php
 if($_POST)
 {
-	$to_email   	= "contato@colegiomaranata.com.br"; //Recipient email, Replace with own email here
+	$to_email   	= "secretaria@colegiomaranata.com.br"; //Recipient email, Replace with own email here
 	
 	//check if its an ajax request, exit if not
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
