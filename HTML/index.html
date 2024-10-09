@@ -10,9 +10,9 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
     <meta name="description" content="" />
-    <meta name="author" content="franceschini" />
+    <meta name="author" content="André de Lima Franceschini" />
     <!-- Page title -->
-    <title>Alphabet - Children One Page HTML5</title>
+    <title>Colégio Maranata</title>
     <!--[if lt IE 9]>
       <script src="js/respond.js"></script>
     <![endif]-->
@@ -24,6 +24,11 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       href="fonts/flaticons/flaticon.css"
       rel="stylesheet"
@@ -99,9 +104,6 @@
         </div>
         <div class="collapse navbar-collapse" id="nav-alphabet">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item home">
-              <a class="nav-link active" href="#layerslider">Início</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="#services">Sobre Nós</a>
             </li>
@@ -115,13 +117,13 @@
               <a class="nav-link" href="#activities">Atividades</a>
             </li>
             <!--desktop logo -->
-            <li class="nav-item d-none d-xl-block navbar-brand-centered">
+            <li class="nav-item home d-none d-xl-block navbar-brand-centered">
               <a href="#layerslider">
                 <img id="#brandlogo" src="./img/logo.png" alt="" />
               </a>
             </li>
             <!--/desktop logo -->
-            <li class="nav-item">
+            <li class="nav-item home">
               <a class="nav-link" href="#prices">Monitoramento</a>
             </li>
             <li class="nav-item">
@@ -129,9 +131,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#team">Equipe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#latestblog">Calendário</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contato</a>
@@ -261,44 +260,6 @@
           data-ls="delayin:1500;easingin:easeOutExpo;parallaxlevel:6;"
         />
       </div>
-      <!-- Slide 4 -->
-      <div class="ls-slide" data-ls="transition2d:104;duration: 6000;">
-        <!-- Background image -->
-        <img src="img/slide4.jpg" class="ls-bg" alt="Slide background" />
-        <!-- Parallax Image / hidden on mobile -->
-        <img
-          src="img/bee.png"
-          style="top: 70px"
-          class="ls-l img-fluid parallax1 ls-hide-tablet ls-hide-phone"
-          alt=""
-          data-ls="delayin:1000;easingin:easeOutExpo;parallaxlevel:7;"
-        />
-        <!-- Text -->
-        <div
-          class="ls-l"
-          style="top: 200px; margin-left: 4%; width: 90%"
-          data-ls="offsetxin:0;durationin:2000;delayin:1500;easingin:easeOutExpo;rotatexin:-90;transformoriginin:50% top 0;offsetxout:-200;durationout:1000;parallaxlevel:2;"
-        >
-          <div class="header-text col-lg-5 col-xl-5">
-            <h1>Bem vindo ao Colégio Maranata</h1>
-            <p class="subtitle">
-              Um colégio com amor, educação de qualidade e princípios cristãos
-            </p>
-            <!-- Button -->
-            <div class="page-scrol">
-              <a class="btn" href="#contact">Entre em contato</a>
-            </div>
-          </div>
-        </div>
-        <!-- Parallax Image / hidden on mobile-->
-        <img
-          src="img/star.png"
-          class="ls-l img-fluid parallax2 ls-hide-tablet ls-hide-phone"
-          alt=""
-          style="top: 380px; left: 42%"
-          data-ls="delayin:1500;easingin:easeOutExpo;parallaxlevel:6;"
-        />
-      </div>
     </div>
     <!-- /Layerslider ends-->
     <!-- Clouds SVG Divider -->
@@ -379,7 +340,11 @@
           <!-- /col-sm-12-->
           <div class="col-md-12 col-lg-5 offset-lg-1">
             <!-- Image -->
-            <img src="img/services.png" alt="" class="img-fluid mx-auto" />
+            <img
+              src="img/services.png"
+              alt=""
+              class="img-fluid img-curved mx-auto"
+            />
           </div>
           <!-- /col-md-12-->
         </div>
@@ -609,12 +574,12 @@
               <div class="col-md-10 offset-md-1 quote-test text-center">
                 <!-- quote -->
                 <p>
-                  Suspendis Lotam tempore optio lorem ispuet doloremque
-                  laboriosam quas, quos eaque molestias odio aut eius animi
-                  Suspendisse a elementum anteu imperdiet et maecenas eu eros
-                  non nibh aliquet iaculis..
+                  Amo essa escola, e minha filha também! Ótimos profissionais
                 </p>
-                <small><i class="fa fa-user"></i>Joanna Vilken, Lawyer</small>
+                <small
+                  ><i class="fa fa-user"></i>Briane Pereira Alves, Analista e
+                  Mãe.</small
+                >
               </div>
             </blockquote>
             <!-- testimonial 2-->
@@ -629,13 +594,11 @@
               </div>
               <div class="col-md-10 offset-md-1 quote-test text-center">
                 <!-- quote -->
-                <p>
-                  Laudantium totam tempore optio lorem ispuet doloremque aut
-                  eius animi Suspendisse a elementum ante. Nunc aliquet
-                  tincidunt quam, non egestas arcu imperdiet et maecenas eu eros
-                  non nibh aliquet iaculis..
-                </p>
-                <small><i class="fa fa-user"></i>John Cassady, Astronaut</small>
+                <p>Melhor Colégio Cristão de Sorocaba!</p>
+                <small
+                  ><i class="fa fa-user"></i>Thatiany Pieroni, Professora e
+                  Psicopedagoga.</small
+                >
               </div>
             </blockquote>
             <!-- testimonial 3-->
@@ -650,13 +613,11 @@
               </div>
               <div class="col-md-10 offset-md-1 quote-test text-center">
                 <!-- quote -->
-                <p>
-                  Laboriosam quas, quos eaque lorem ispuet odio aut eius animi
-                  Suspendisse a elementum ante. Nunc aliquet tincidunt quam, non
-                  egestas arcu imperdiet et maecenas eu eros non nibh aliquet
-                  iaculis..
-                </p>
-                <small><i class="fa fa-user"></i>Maria Silveira, Teacher</small>
+                <p>Escola sensacional, meu filho gosta demais.</p>
+                <small
+                  ><i class="fa fa-user"></i>Fabio Santos Calitri, Barbeiro e
+                  Pai.</small
+                >
               </div>
             </blockquote>
           </div>
@@ -866,7 +827,7 @@
                         >
                           <div class="accordion-body">
                             <p>
-                              "Descubra as aulas de inglês no Colégio Maranata,
+                              Descubra as aulas de inglês no Colégio Maranata,
                               onde proporcionamos uma imersão dinâmica e
                               divertida no idioma. Nossos alunos aprendem
                               habilidades linguísticas essenciais enquanto
@@ -888,7 +849,7 @@
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingTwo">
                           <button
                             class="accordion-button collapsed"
@@ -908,23 +869,12 @@
                           data-bs-parent="#accordion1"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3>1 - 14 anos</h3>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingThree">
                           <button
                             class="accordion-button collapsed"
@@ -944,18 +894,11 @@
                           data-bs-parent="#accordion1"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3 class="text-center">
+                              Segundas e Terças
+                              <hr />
+                              7:30 - 12:40
+                            </h3>
                           </div>
                         </div>
                       </div>
@@ -1011,22 +954,26 @@
                         >
                           <div class="accordion-body">
                             <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
+                              Nas nossas aulas de musicalização, as crianças têm
+                              a chance de se divertir e aprender sobre música de
+                              um jeito descontraído. Com brincadeiras, cantigas
+                              e experimentação de instrumentos simples, elas
+                              exploram sons e ritmos de forma natural.
                             </p>
                             <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
+                              Nossas atividades são pensadas para serem
+                              divertidas e acessíveis para todos, independente
+                              da idade. Nossos professores são animados e estão
+                              sempre prontos para ajudar as crianças a
+                              descobrirem o mundo da música de um jeito leve e
+                              descontraído. Venha fazer parte dessa experiência
+                              musical com a gente!
                             </p>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingTwo2">
                           <button
                             class="accordion-button collapsed"
@@ -1046,23 +993,12 @@
                           data-bs-parent="#accordion2"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3>1 - 14 anos</h3>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingThree2">
                           <button
                             class="accordion-button collapsed"
@@ -1082,18 +1018,11 @@
                           data-bs-parent="#accordion2"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3 class="text-center">
+                              Segundas e Terças
+                              <hr />
+                              7:30 - 12:40
+                            </h3>
                           </div>
                         </div>
                       </div>
@@ -1149,22 +1078,31 @@
                         >
                           <div class="accordion-body">
                             <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
+                              Nas aulas de judô, as crianças aprendem não apenas
+                              técnicas de defesa pessoal, mas também valores
+                              como disciplina, respeito e autocontrole. Com um
+                              ambiente seguro e instrutores qualificados, nossas
+                              aulas são uma oportunidade para os alunos
+                              desenvolverem habilidades físicas e mentais, ao
+                              mesmo tempo em que se divertem e interagem com os
+                              colegas.
                             </p>
                             <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
+                              Nosso programa de judô é adaptado para crianças de
+                              todas as idades e níveis de habilidade,
+                              proporcionando uma experiência inclusiva e
+                              estimulante para todos. Além de aprender os
+                              fundamentos do judô, como quedas e golpes básicos,
+                              os alunos também desenvolvem habilidades de
+                              trabalho em equipe e concentração. Venha fazer
+                              parte da nossa equipe de judô e descubra o poder
+                              dessa arte marcial milenar!
                             </p>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingTwo3">
                           <button
                             class="accordion-button collapsed"
@@ -1184,23 +1122,12 @@
                           data-bs-parent="#accordion3"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3>1 - 14 anos</h3>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingThree3">
                           <button
                             class="accordion-button collapsed"
@@ -1220,18 +1147,11 @@
                           data-bs-parent="#accordion3"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3 class="text-center">
+                              Segundas e Terças
+                              <hr />
+                              7:30 - 12:40
+                            </h3>
                           </div>
                         </div>
                       </div>
@@ -1287,22 +1207,34 @@
                         >
                           <div class="accordion-body">
                             <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
+                              Nas aulas de ballet, as crianças mergulham em um
+                              mundo de graciosidade, expressão e movimento. Com
+                              passos delicados e música suave, elas desenvolvem
+                              não apenas habilidades físicas, mas também
+                              disciplina, postura e confiança.
                             </p>
                             <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
+                              Nosso programa de ballet é projetado para crianças
+                              de todas as idades e níveis de experiência,
+                              oferecendo aulas que combinam técnica,
+                              criatividade e diversão. Sob a orientação de
+                              nossos instrutores qualificados, os alunos
+                              exploram a arte do ballet de uma forma envolvente
+                              e inspiradora.
+                            </p>
+                            <p>
+                              Além de aprender os passos clássicos do ballet, as
+                              crianças também desenvolvem habilidades de
+                              coordenação, flexibilidade e expressão artística.
+                              Venha se juntar a nós e descubra o mundo mágico do
+                              ballet, onde os sonhos se tornam realidade com
+                              cada movimento gracioso!
                             </p>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingTwo4">
                           <button
                             class="accordion-button collapsed"
@@ -1322,23 +1254,12 @@
                           data-bs-parent="#accordion4"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3>1 - 14 anos</h3>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingThree4">
                           <button
                             class="accordion-button collapsed"
@@ -1358,18 +1279,11 @@
                           data-bs-parent="#accordion4"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3 class="text-center">
+                              Segundas e Terças
+                              <hr />
+                              7:30 - 12:40
+                            </h3>
                           </div>
                         </div>
                       </div>
@@ -1425,22 +1339,31 @@
                         >
                           <div class="accordion-body">
                             <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
+                              Em nossos momentos devocionais, promovemos uma
+                              atmosfera de espiritualidade cristã, onde os
+                              alunos são convidados a refletir sobre valores
+                              universais de amor, compaixão e respeito. Através
+                              de histórias inspiradoras, músicas e momentos de
+                              silêncio, buscamos fortalecer o senso de
+                              comunidade e o desenvolvimento moral de nossos
+                              alunos, inspirando-os a viverem de acordo com
+                              princípios éticos e humanitários.
                             </p>
                             <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
+                              Nossos momentos devocionais são conduzidos de
+                              maneira inclusiva e respeitosa, reconhecendo e
+                              valorizando a diversidade de crenças e
+                              experiências espirituais presentes em nossa
+                              comunidade escolar. É um tempo de reflexão e
+                              conexão, onde cada criança é encorajada a
+                              encontrar significado e propósito em sua própria
+                              jornada espiritual,
                             </p>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingTwo5">
                           <button
                             class="accordion-button collapsed"
@@ -1460,23 +1383,12 @@
                           data-bs-parent="#accordion5"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3>1 - 14 anos</h3>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingThree5">
                           <button
                             class="accordion-button collapsed"
@@ -1496,18 +1408,11 @@
                           data-bs-parent="#accordion5"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3 class="text-center">
+                              Segundas e Terças
+                              <hr />
+                              7:30 - 12:40
+                            </h3>
                           </div>
                         </div>
                       </div>
@@ -1532,7 +1437,7 @@
                   <div class="col-lg-5">
                     <!-- Activity image-->
                     <img
-                      src="img/activity5.jpg"
+                      src="img/activity6.jpg"
                       alt=""
                       class="img-fluid rounded-circle"
                     />
@@ -1563,22 +1468,43 @@
                         >
                           <div class="accordion-body">
                             <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
+                              Em nossas atividades de futebol, os alunos têm a
+                              oportunidade de desenvolver habilidades físicas,
+                              trabalho em equipe e disciplina enquanto se
+                              divertem e praticam um esporte popular. Sob a
+                              orientação de treinadores qualificados, nossas
+                              aulas proporcionam um ambiente estimulante para os
+                              alunos aprenderem e aprimorarem técnicas, além de
+                              promoverem valores como respeito, fair play e
+                              determinação.
                             </p>
                             <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
+                              Nosso programa de futebol é adaptado para crianças
+                              de todas as idades e níveis de habilidade,
+                              oferecendo uma variedade de atividades que visam
+                              melhorar o desempenho dos alunos e promover um
+                              estilo de vida ativo e saudável. Além de ensinar
+                              os fundamentos do esporte, nossas aulas incentivam
+                              o espírito esportivo e a camaradagem entre os
+                              participantes.
+                            </p>
+                            <p>
+                              Independentemente do nível de experiência ou
+                              aptidão física, todos os alunos são incentivados a
+                              participar e se divertir enquanto aprendem e
+                              crescem através do futebol. É uma oportunidade
+                              para os alunos desenvolverem não apenas
+                              habilidades esportivas, mas também valores
+                              essenciais que os ajudarão em suas vidas pessoais
+                              e acadêmicas. Venha se juntar a nós e faça parte
+                              dessa emocionante jornada esportiva no Colégio
+                              Maranata!
                             </p>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingTwo6">
                           <button
                             class="accordion-button collapsed"
@@ -1598,23 +1524,12 @@
                           data-bs-parent="#accordion6"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3>1 - 14 anos</h3>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingThree6">
                           <button
                             class="accordion-button collapsed"
@@ -1634,18 +1549,11 @@
                           data-bs-parent="#accordion6"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3 class="text-center">
+                              Segundas e Terças
+                              <hr />
+                              7:30 - 12:40
+                            </h3>
                           </div>
                         </div>
                       </div>
@@ -1670,7 +1578,7 @@
                   <div class="col-lg-5">
                     <!-- Activity image-->
                     <img
-                      src="img/activity5.jpg"
+                      src="img/activity7.jpg"
                       alt=""
                       class="img-fluid rounded-circle"
                     />
@@ -1701,22 +1609,42 @@
                         >
                           <div class="accordion-body">
                             <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
+                              Em nossas atividades de recreação, proporcionamos
+                              momentos de diversão e aprendizado para os alunos,
+                              onde podem explorar e se conectar com o mundo ao
+                              seu redor. Com parquinhos equipados, uma
+                              fazendinha e passeios educativos, oferecemos uma
+                              variedade de experiências que estimulam a
+                              imaginação, promovem a interação social e
+                              incentivam a descoberta.
                             </p>
                             <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
+                              Nosso parquinho é um espaço seguro e divertido
+                              onde as crianças podem brincar, correr e se
+                              exercitar ao ar livre. Na fazendinha, os alunos
+                              têm a oportunidade de interagir com animais e
+                              aprender sobre a natureza de forma prática e
+                              envolvente. Além disso, organizamos passeios
+                              educativos para locais como museus, parques
+                              naturais e outros pontos de interesse,
+                              proporcionando experiências enriquecedoras fora do
+                              ambiente escolar.
+                            </p>
+                            <p>
+                              Nossas atividades de recreação são planejadas com
+                              cuidado e carinho, visando proporcionar momentos
+                              de alegria e descontração para os alunos. É uma
+                              oportunidade para eles explorarem novos
+                              interesses, desenvolverem habilidades e criarem
+                              memórias duradouras ao lado de seus colegas. Venha
+                              se juntar a nós e descubra a magia da recreação no
+                              Colégio Maranata!
                             </p>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingTwo7">
                           <button
                             class="accordion-button collapsed"
@@ -1736,23 +1664,12 @@
                           data-bs-parent="#accordion7"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3>1 - 14 anos</h3>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingThree7">
                           <button
                             class="accordion-button collapsed"
@@ -1772,18 +1689,11 @@
                           data-bs-parent="#accordion7"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3 class="text-center">
+                              Segundas e Terças
+                              <hr />
+                              7:30 - 12:40
+                            </h3>
                           </div>
                         </div>
                       </div>
@@ -1808,7 +1718,7 @@
                   <div class="col-lg-5">
                     <!-- Activity image-->
                     <img
-                      src="img/activity5.jpg"
+                      src="img/activity8.jpg"
                       alt=""
                       class="img-fluid rounded-circle"
                     />
@@ -1839,22 +1749,32 @@
                         >
                           <div class="accordion-body">
                             <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
+                              Nosso projeto nutricional é cuidadosamente
+                              elaborado para garantir que nossos alunos recebam
+                              refeições equilibradas e nutritivas todos os dias.
+                              Trabalhamos em parceria com nutricionistas
+                              especializados para oferecer cardápios variados,
+                              que atendam às necessidades nutricionais
+                              específicas de cada faixa etária, promovendo
+                              hábitos alimentares saudáveis desde cedo.
                             </p>
                             <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
+                              Além de oferecer refeições balanceadas, nosso
+                              projeto nutricional também inclui atividades
+                              educativas sobre alimentação saudável,
+                              incentivando os alunos a fazerem escolhas
+                              conscientes e desenvolverem uma relação positiva
+                              com a comida. Acreditamos que uma alimentação
+                              adequada é essencial para o desenvolvimento físico
+                              e cognitivo das crianças, e estamos comprometidos
+                              em proporcionar um ambiente onde elas possam
+                              crescer e prosperar com saúde.
                             </p>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingTwo8">
                           <button
                             class="accordion-button collapsed"
@@ -1874,23 +1794,12 @@
                           data-bs-parent="#accordion8"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3>1 - 14 anos</h3>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingThree8">
                           <button
                             class="accordion-button collapsed"
@@ -1910,18 +1819,11 @@
                           data-bs-parent="#accordion8"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3 class="text-center">
+                              Segundas e Terças
+                              <hr />
+                              7:30 - 12:40
+                            </h3>
                           </div>
                         </div>
                       </div>
@@ -1946,7 +1848,7 @@
                   <div class="col-lg-5">
                     <!-- Activity image-->
                     <img
-                      src="img/activity5.jpg"
+                      src="img/activity9.jpg"
                       alt=""
                       class="img-fluid rounded-circle"
                     />
@@ -1977,22 +1879,32 @@
                         >
                           <div class="accordion-body">
                             <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
+                              Em nossas aulas de Libras, buscamos promover a
+                              inclusão e a comunicação acessível para todos os
+                              alunos. A Língua Brasileira de Sinais é uma
+                              ferramenta poderosa para a interação e o
+                              entendimento entre pessoas surdas e ouvintes, e é
+                              por isso que oferecemos aulas que ensinam não
+                              apenas os sinais básicos, mas também a cultura
+                              surda e a importância da comunicação inclusiva.
                             </p>
                             <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
+                              Nossas aulas são ministradas por professores
+                              especializados e utilizam métodos interativos e
+                              práticos para garantir que os alunos adquiram
+                              habilidades eficientes de comunicação em Libras.
+                              Além disso, as aulas também oferecem uma
+                              oportunidade valiosa para os alunos desenvolverem
+                              empatia, compreensão e respeito pela diversidade,
+                              preparando-os para um mundo mais inclusivo e
+                              acolhedor. Venha fazer parte dessa jornada de
+                              aprendizado e inclusão conosco!
                             </p>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingTwo9">
                           <button
                             class="accordion-button collapsed"
@@ -2012,23 +1924,12 @@
                           data-bs-parent="#accordion9"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3>1 - 14 anos</h3>
                           </div>
                         </div>
                       </div>
                       <!--accordion item -->
-                      <div class="accordion-item">
+                      <div class="d-none accordion-item">
                         <h4 class="accordion-header" id="headingThree9">
                           <button
                             class="accordion-button collapsed"
@@ -2048,18 +1949,11 @@
                           data-bs-parent="#accordion9"
                         >
                           <div class="accordion-body">
-                            <p>
-                              Vivamus finibus lorem diam, sit amet facilisis
-                              tellus placerat Aliquam porttitor ut lectus eget
-                              imperdiet. Aenean ut ex leo. Nulla faucibus turpis
-                              sit amet turpis mattis vestibulum et vel enim.
-                              Suspendisse magna magna, consectetur at erat non,
-                              mattis aliquet elit.
-                            </p>
-                            <p>
-                              Fusce at nibh lacinia orci dictum euismod.
-                              Praesent vel nisl in quam commodo tristique.
-                            </p>
+                            <h3 class="text-center">
+                              Segundas e Terças
+                              <hr />
+                              7:30 - 12:40
+                            </h3>
                           </div>
                         </div>
                       </div>
@@ -2142,6 +2036,7 @@
           <!-- /card -->
         </div>
         <!-- /col-lg-6 -->
+      </div>
       <!-- /container-->
     </section>
     <!-- Section Ends-->
@@ -2157,19 +2052,19 @@
     </div>
     <!-- Seção Monitoramento -->
     <section id="prices" class="color-section">
-       <!-- svg triangle shape -->
-        <svg
-          id="triangleShadow"
-          xmlns="http://www.w3.org/2000/svg"
-          version="1.1"
-          width="100%"
-          height="100"
-          viewBox="0 0 100 100"
-          preserveAspectRatio="none"
-        >
-          <path class="trianglePath2" d="M0 0 L50 100 L100 0 Z" />
-        </svg>
-      </div>
+      <!-- svg triangle shape -->
+      <svg
+        id="triangleShadow"
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+        width="100%"
+        height="100"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+      >
+        <path class="trianglePath2" d="M0 0 L50 100 L100 0 Z" />
+      </svg>
+
       <div class="container">
         <div class="col-lg-8 offset-lg-2">
           <!-- Section heading -->
@@ -2179,7 +2074,7 @@
         </div>
         <!-- Price tables -->
         <div class="pricing pricing-palden">
-          <div class="row p-3">
+          <div class="row d-flex justify-content-center gap-5 p-3">
             <div class="pricing-item col-lg-4">
               <div class="pricing-deco">
                 <svg
@@ -2221,80 +2116,29 @@
                   ></path>
                 </svg>
                 <div class="pricing-price">
-                  <span class="pricing-currency">$</span>59
-                  <span class="pricing-period">/ day</span>
+                  <h3 class="pricing-title">AppStore</h3>
                 </div>
-                <h3 class="pricing-title">Daily</h3>
+                <h5 class="pricing-title">App de Monitoramento</h5>
               </div>
               <!-- List -->
               <ul class="pricing-feature-list">
-                <li>No Contracts</li>
-                <li>10h /day</li>
-                <li>Drop In</li>
-                <li>Facilities Included</li>
+                <li>Monitoramento em Tempo Real</li>
+                <li>Visualização de Atividades Escolares</li>
+                <li>Ambiente Seguro para Pais e Filhos</li>
+                <li>Controle Fácil de Acessos e Gravações</li>
               </ul>
               <!-- Button-->
               <div class="page-scroll">
-                <a class="btn" href="#contact">Contact us</a>
-              </div>
-              <!--/page-scroll-->
-            </div>
-            <div class="pricing-item pricing-item-featured col-lg-4">
-              <div class="pricing-deco">
-                <svg
-                  class="pricing-deco-img"
-                  enable-background="new 0 0 300 100"
-                  height="100px"
-                  preserveAspectRatio="none"
-                  version="1.1"
-                  viewBox="0 0 300 100"
-                  width="300px"
-                  x="0px"
-                  xml:space="preserve"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  xmlns="http://www.w3.org/2000/svg"
-                  y="0px"
-                >
-                  <path
-                    class="deco-layer deco-layer--1"
-                    d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729&#x000A;	c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z"
-                    fill="#FFFFFF"
-                    opacity="0.6"
-                  ></path>
-                  <path
-                    class="deco-layer deco-layer--2"
-                    d="M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729&#x000A;	c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z"
-                    fill="#FFFFFF"
-                    opacity="0.6"
-                  ></path>
-                  <path
-                    class="deco-layer deco-layer--3"
-                    d="M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716&#x000A;	H42.401L43.415,98.342z"
-                    fill="#FFFFFF"
-                    opacity="0.7"
-                  ></path>
-                  <path
-                    class="deco-layer deco-layer--4"
-                    d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428&#x000A;	c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z"
-                    fill="#FFFFFF"
-                  ></path>
-                </svg>
-                <div class="pricing-price">
-                  <span class="pricing-currency">$</span>350
-                  <span class="pricing-period">/ week</span>
-                </div>
-                <h3 class="pricing-title">Weekly</h3>
-              </div>
-              <!-- List -->
-              <ul class="pricing-feature-list">
-                <li>Natural Enviroment Program</li>
-                <li>10h /day</li>
-                <li>Bonus Activities</li>
-                <li>Parent's Handbook</li>
-              </ul>
-              <!-- Button-->
-              <div class="page-scroll">
-                <a class="btn" href="#contact">Contact us</a>
+                <a
+                  class="btn"
+                  href="https://apps.apple.com/br/app/click-cam/id1470288746"
+                  target="_blank"
+                  >Instalar
+                  <ion-icon
+                    class="align-self-center ms-1"
+                    name="logo-apple"
+                  ></ion-icon>
+                </a>
               </div>
               <!--/page-scroll-->
             </div>
@@ -2339,22 +2183,32 @@
                   ></path>
                 </svg>
                 <div class="pricing-price">
-                  <span class="pricing-currency">$</span>999
-                  <span class="pricing-period">/ mo</span>
+                  <h3 class="pricing-title">PlayStore</h3>
                 </div>
-                <h3 class="pricing-title">Monthly</h3>
+                <h5 class="pricing-title">App de Monitoramento</h5>
               </div>
               <!-- List -->
               <ul class="pricing-feature-list">
-                <li>Extra Savings</li>
-                <li>12h /day</li>
-                <li>Bonus Activities</li>
-                <li>Parent's Handbook</li>
+                <li>Monitoramento em Tempo Real</li>
+                <li>Visualização de Atividades Escolares</li>
+                <li>Ambiente Seguro para Pais e Filhos</li>
+                <li>Controle Fácil de Acessos e Gravações</li>
               </ul>
               <!-- Button-->
               <div class="page-scroll">
-                <a class="btn" href="#contact">Contact us</a>
+                <a
+                  class="btn"
+                  href="https://play.google.com/store/apps/details?id=br.com.systemberith.clickcam&hl=pt_BR&gl=US&pli=1"
+                  target="_blank"
+                >
+                  Instalar
+                  <ion-icon
+                    class="align-self-center ms-1"
+                    name="logo-android"
+                  ></ion-icon>
+                </a>
               </div>
+
               <!--/page-scroll-->
             </div>
             <!--/pricing-item-->
@@ -2398,7 +2252,7 @@
                 href="#"
                 data-toggle="tab"
                 data-filter="*"
-                >All</a
+                >Todas</a
               >
             </li>
             <li class="nav-item">
@@ -2406,8 +2260,8 @@
                 class="nav-link"
                 href="#"
                 data-toggle="tab"
-                data-filter=".events"
-                >Events</a
+                data-filter=".fazendinha"
+                >Fazendinha</a
               >
             </li>
             <li class="nav-item">
@@ -2415,8 +2269,35 @@
                 class="nav-link"
                 href="#"
                 data-toggle="tab"
-                data-filter=".facilities"
-                >Our Facilities</a
+                data-filter=".campinho"
+                >Campinho</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-toggle="tab"
+                data-filter=".estrutura"
+                >Estrutura</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-toggle="tab"
+                data-filter=".bercario"
+                >Berçário</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-toggle="tab"
+                data-filter=".maternal"
+                >Maternal</a
               >
             </li>
           </ul>
@@ -2426,15 +2307,15 @@
           <div class="col-md-12">
             <div id="lightbox">
               <!-- Image 1 -->
-              <div class="col-sm-6 col-md-6 col-lg-4 events">
+              <div class="col-sm-6 col-md-6 col-lg-4 maternal">
                 <div class="portfolio-item">
                   <div class="gallery-thumb">
-                    <img class="img-fluid" src="img/gallery1.jpg" alt="" />
+                    <img class="img-fluid" src="img/gallerythumb1.jpg" alt="" />
                     <span class="overlay-mask"></span>
                     <a
                       href="img/gallery1.jpg"
-                      class="link centered"
-                      title="You can add caption to pictures."
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
                     >
                       <i class="fa fa-expand"></i
                     ></a>
@@ -2442,15 +2323,15 @@
                 </div>
               </div>
               <!-- Image 2 -->
-              <div class="col-sm-6 col-md-6 col-lg-4 facilities">
+              <div class="col-sm-6 col-md-6 col-lg-4 maternal">
                 <div class="portfolio-item">
                   <div class="gallery-thumb">
-                    <img class="img-fluid" src="img/gallery2.jpg" alt="" />
+                    <img class="img-fluid" src="img/gallerythumb2.jpg" alt="" />
                     <span class="overlay-mask"></span>
                     <a
                       href="img/gallery2.jpg"
-                      class="link centered"
-                      title="You can add caption to pictures."
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
                     >
                       <i class="fa fa-expand"></i
                     ></a>
@@ -2458,15 +2339,15 @@
                 </div>
               </div>
               <!-- Image 3 -->
-              <div class="col-sm-6 col-md-6 col-lg-4 facilities">
+              <div class="col-sm-6 col-md-6 col-lg-4 maternal">
                 <div class="portfolio-item">
                   <div class="gallery-thumb">
-                    <img class="img-fluid" src="img/gallery3.jpg" alt="" />
+                    <img class="img-fluid" src="img/gallerythumb3.jpg" alt="" />
                     <span class="overlay-mask"></span>
                     <a
                       href="img/gallery3.jpg"
-                      class="link centered"
-                      title="You can add caption to pictures."
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
                     >
                       <i class="fa fa-expand"></i
                     ></a>
@@ -2474,15 +2355,15 @@
                 </div>
               </div>
               <!-- Image 4 -->
-              <div class="col-sm-6 col-md-6 col-lg-4 events">
+              <div class="col-sm-6 col-md-6 col-lg-4 estrutura">
                 <div class="portfolio-item">
                   <div class="gallery-thumb">
-                    <img class="img-fluid" src="img/gallery4.jpg" alt="" />
+                    <img class="img-fluid" src="img/gallerythumb4.jpg" alt="" />
                     <span class="overlay-mask"></span>
                     <a
                       href="img/gallery4.jpg"
-                      class="link centered"
-                      title="You can add caption to pictures."
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
                     >
                       <i class="fa fa-expand"></i
                     ></a>
@@ -2490,15 +2371,15 @@
                 </div>
               </div>
               <!-- Image 5 -->
-              <div class="col-sm-6 col-md-6 col-lg-4 facilities">
+              <div class="col-sm-6 col-md-6 col-lg-4 maternal">
                 <div class="portfolio-item">
                   <div class="gallery-thumb">
-                    <img class="img-fluid" src="img/gallery5.jpg" alt="" />
+                    <img class="img-fluid" src="img/gallerythumb5.jpg" alt="" />
                     <span class="overlay-mask"></span>
                     <a
                       href="img/gallery5.jpg"
-                      class="link centered"
-                      title="You can add caption to pictures."
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
                     >
                       <i class="fa fa-expand"></i
                     ></a>
@@ -2506,15 +2387,15 @@
                 </div>
               </div>
               <!-- Image 6 -->
-              <div class="col-sm-6 col-md-6 col-lg-4 facilities">
+              <div class="col-sm-6 col-md-6 col-lg-4 bercario">
                 <div class="portfolio-item">
                   <div class="gallery-thumb">
-                    <img class="img-fluid" src="img/gallery6.jpg" alt="" />
+                    <img class="img-fluid" src="img/gallerythumb6.jpg" alt="" />
                     <span class="overlay-mask"></span>
                     <a
                       href="img/gallery6.jpg"
-                      class="link centered"
-                      title="You can add caption to pictures."
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
                     >
                       <i class="fa fa-expand"></i
                     ></a>
@@ -2522,15 +2403,15 @@
                 </div>
               </div>
               <!-- Image 7 -->
-              <div class="col-sm-6 col-md-6 col-lg-4 events">
+              <div class="col-sm-6 col-md-6 col-lg-4 maternal">
                 <div class="portfolio-item">
                   <div class="gallery-thumb">
-                    <img class="img-fluid" src="img/gallery7.jpg" alt="" />
+                    <img class="img-fluid" src="img/gallerythumb7.jpg" alt="" />
                     <span class="overlay-mask"></span>
                     <a
-                      href="img/gallery7.jpg"
-                      class="link centered"
-                      title="You can add caption to pictures."
+                      href="img/gallerythumb7.jpg"
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
                     >
                       <i class="fa fa-expand"></i
                     ></a>
@@ -2538,15 +2419,15 @@
                 </div>
               </div>
               <!-- Image 8 -->
-              <div class="col-sm-6 col-md-6 col-lg-4 events">
+              <div class="col-sm-6 col-md-6 col-lg-4 estrutura">
                 <div class="portfolio-item">
                   <div class="gallery-thumb">
-                    <img class="img-fluid" src="img/gallery8.jpg" alt="" />
+                    <img class="img-fluid" src="img/gallerythumb8.jpg" alt="" />
                     <span class="overlay-mask"></span>
                     <a
                       href="img/gallery8.jpg"
-                      class="link centered"
-                      title="You can add caption to pictures."
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
                     >
                       <i class="fa fa-expand"></i
                     ></a>
@@ -2554,15 +2435,15 @@
                 </div>
               </div>
               <!-- Image 9 -->
-              <div class="col-sm-6 col-md-6 col-lg-4 facilities">
+              <div class="col-sm-6 col-md-6 col-lg-4 fazendinha">
                 <div class="portfolio-item">
                   <div class="gallery-thumb">
-                    <img class="img-fluid" src="img/gallery9.jpg" alt="" />
+                    <img class="img-fluid" src="img/gallerythumb9.jpg" alt="" />
                     <span class="overlay-mask"></span>
                     <a
                       href="img/gallery9.jpg"
-                      class="link centered"
-                      title="You can add caption to pictures."
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
                     >
                       <i class="fa fa-expand"></i
                     ></a>
@@ -2570,15 +2451,19 @@
                 </div>
               </div>
               <!-- Image 10 -->
-              <div class="col-sm-6 col-md-6 col-lg-4 facilities">
+              <div class="col-sm-6 col-md-6 col-lg-4 maternal">
                 <div class="portfolio-item">
                   <div class="gallery-thumb">
-                    <img class="img-fluid" src="img/gallery10.jpg" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="img/gallerythumb10.jpg"
+                      alt=""
+                    />
                     <span class="overlay-mask"></span>
                     <a
                       href="img/gallery10.jpg"
-                      class="link centered"
-                      title="You can add caption to pictures."
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
                     >
                       <i class="fa fa-expand"></i
                     ></a>
@@ -2586,15 +2471,19 @@
                 </div>
               </div>
               <!-- Image 11 -->
-              <div class="col-sm-6 col-md-6 col-lg-4 facilities">
+              <div class="col-sm-6 col-md-6 col-lg-4 bercario">
                 <div class="portfolio-item">
                   <div class="gallery-thumb">
-                    <img class="img-fluid" src="img/gallery11.jpg" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="img/gallerythumb11.jpg"
+                      alt=""
+                    />
                     <span class="overlay-mask"></span>
                     <a
                       href="img/gallery11.jpg"
-                      class="link centered"
-                      title="You can add caption to pictures."
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
                     >
                       <i class="fa fa-expand"></i
                     ></a>
@@ -2602,15 +2491,135 @@
                 </div>
               </div>
               <!-- Image 12 -->
-              <div class="col-sm-6 col-md-6 col-lg-4 facilities">
+              <div class="col-sm-6 col-md-6 col-lg-4 maternal">
                 <div class="portfolio-item">
                   <div class="gallery-thumb">
-                    <img class="img-fluid" src="img/gallery12.jpg" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="img/gallerythumb12.jpg"
+                      alt=""
+                    />
                     <span class="overlay-mask"></span>
                     <a
                       href="img/gallery12.jpg"
-                      class="link centered"
-                      title="You can add caption to pictures."
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
+                    >
+                      <i class="fa fa-expand"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Image 13 -->
+              <div class="col-sm-6 col-md-6 col-lg-4 fazendinha">
+                <div class="portfolio-item">
+                  <div class="gallery-thumb">
+                    <img
+                      class="img-fluid"
+                      src="img/gallerythumb13.jpg"
+                      alt=""
+                    />
+                    <span class="overlay-mask"></span>
+                    <a
+                      href="img/gallery13.jpg"
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
+                    >
+                      <i class="fa fa-expand"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Image 14 -->
+              <div class="col-sm-6 col-md-6 col-lg-4 campinho">
+                <div class="portfolio-item">
+                  <div class="gallery-thumb">
+                    <img class="img-fluid" src="img/activity6.jpg" alt="" />
+                    <span class="overlay-mask"></span>
+                    <a
+                      href="img/activity6.jpg"
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
+                    >
+                      <i class="fa fa-expand"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Image 15 -->
+              <div class="col-sm-6 col-md-6 col-lg-4 campinho">
+                <div class="portfolio-item">
+                  <div class="gallery-thumb">
+                    <img
+                      class="img-fluid"
+                      src="img/gallerythumb15.jpg"
+                      alt=""
+                    />
+                    <span class="overlay-mask"></span>
+                    <a
+                      href="img/gallery15.jpg"
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
+                    >
+                      <i class="fa fa-expand"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Image 16 -->
+              <div class="col-sm-6 col-md-6 col-lg-4 maternal">
+                <div class="portfolio-item">
+                  <div class="gallery-thumb">
+                    <img
+                      class="img-fluid"
+                      src="img/gallerythumb16.jpg"
+                      alt=""
+                    />
+                    <span class="overlay-mask"></span>
+                    <a
+                      href="img/gallery16.jpg"
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
+                    >
+                      <i class="fa fa-expand"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Image 17 -->
+              <div class="col-sm-6 col-md-6 col-lg-4 maternal">
+                <div class="portfolio-item">
+                  <div class="gallery-thumb">
+                    <img
+                      class="img-fluid"
+                      src="img/gallerythumb17.jpg"
+                      alt=""
+                    />
+                    <span class="overlay-mask"></span>
+                    <a
+                      href="img/gallery17.jpg"
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
+                    >
+                      <i class="fa fa-expand"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Image 18 -->
+              <div class="col-sm-6 col-md-6 col-lg-4 maternal">
+                <div class="portfolio-item">
+                  <div class="gallery-thumb">
+                    <img
+                      class="img-fluid"
+                      src="img/gallerythumb18.jpg"
+                      alt=""
+                    />
+                    <span class="overlay-mask"></span>
+                    <a
+                      href="img/gallery18.jpg"
+                      class="link centered d-flex justify-content-center align-items-center"
+                      title=""
                     >
                       <i class="fa fa-expand"></i
                     ></a>
@@ -2618,28 +2627,28 @@
                 </div>
               </div>
             </div>
-            <!-- /lightbox-->
           </div>
-          <!-- /col-md-12-->
+          <!-- /lightbox-->
         </div>
-        <!-- /row -->
+        <!-- /col-md-12-->
       </div>
+      <!-- /row -->
       <!-- /container -->
     </section>
     <!-- Section ends -->
     <!-- svg triangle shape -->
-      <svg
-        class="triangleShadow"
-        xmlns="http://www.w3.org/2000/svg"
-        version="1.1"
-        width="100%"
-        height="100"
-        viewBox="0 0 100 100"
-        preserveAspectRatio="none"
-        fill="#faf8f4"
-      >
-        <path class="trianglePath3" d="M0 0 L50 100 L100 0 Z" />
-      </svg>
+    <svg
+      class="triangleShadow"
+      xmlns="http://www.w3.org/2000/svg"
+      version="1.1"
+      width="100%"
+      height="100"
+      viewBox="0 0 100 100"
+      preserveAspectRatio="none"
+      fill="#faf8f4"
+    >
+      <path class="trianglePath3" d="M0 0 L50 100 L100 0 Z" />
+    </svg>
     <!-- Parallax object -->
     <div
       class="parallax-object2 d-none d-lg-block"
@@ -2701,11 +2710,11 @@
           <div id="team-slider" class="slider-4 mt-5">
             <!-- col-lg-12-->
             <div class="col-lg-12">
-              <!-- member 1-->
+              <!-- member 1 -->
               <div class="team-item">
-                <img src="img/team6.jpg" alt="" />
+                <img src="img/team1.jpg" alt="" />
                 <div class="team-caption">
-                  <h5 class="text-light mb-0">Karina</h5>
+                  <h5 class="text-light mb-0">Tia Karina</h5>
                   <p>Mantenedora</p>
                 </div>
               </div>
@@ -2713,11 +2722,11 @@
             </div>
             <!-- col-lg-12-->
             <div class="col-lg-12">
-              <!-- member 2-->
+              <!-- member 2 -->
               <div class="team-item">
-                <img src="img/team6.jpg" alt="" />
+                <img src="img/team2.jpg" alt="" />
                 <div class="team-caption">
-                  <h5 class="text-light mb-0">Kemilly</h5>
+                  <h5 class="text-light mb-0">Tia Kemilly</h5>
                   <p>Administrativo</p>
                 </div>
               </div>
@@ -2725,11 +2734,11 @@
             </div>
             <!-- col-lg-12-->
             <div class="col-lg-12">
-              <!-- member 3-->
+              <!-- member 3 -->
               <div class="team-item">
-                <img src="img/team6.jpg" alt="" />
+                <img src="img/team3.jpg" alt="" />
                 <div class="team-caption">
-                  <h5 class="text-light mb-0">Sabrina</h5>
+                  <h5 class="text-light mb-0">Tia Sabrina</h5>
                   <p>Financeiro</p>
                 </div>
               </div>
@@ -2737,170 +2746,35 @@
             </div>
             <!-- col-lg-12-->
             <div class="col-lg-12">
-              <!-- member 4-->
+              <!-- member 4 -->
               <div class="team-item">
-                <img src="img/team5.jpg" alt="" />
+                <img src="img/team4.jpg" alt="" />
                 <div class="team-caption">
-                  <h5 class="text-light mb-0">Fabrícia</h5>
+                  <h5 class="text-light mb-0">Tia Fabrícia</h5>
                   <p>Professora</p>
                 </div>
               </div>
               <!-- /team-item-->
             </div>
-            <!-- col-lg-12-->
+            <!-- col-lg-12 -->
             <div class="col-lg-12">
-              <!-- member 5-->
+              <!-- member 5 -->
               <div class="team-item">
                 <img src="img/team6.jpg" alt="" />
                 <div class="team-caption">
-                  <h5 class="text-light mb-0">Roberta</h5>
-                  <p>Professora</p>
+                  <h5 class="text-light mb-0">Tia Ludmilla</h5>
+                  <p>Professora de Libras</p>
                 </div>
               </div>
               <!-- /team-item-->
+              <!-- col-lg-12-->
             </div>
-            <div class="col-lg-12">
-              <!-- member 6-->
-              <div class="team-item">
-                <img src="img/team6.jpg" alt="" />
-                <div class="team-caption">
-                  <h5 class="text-light mb-0">Ana Flávia</h5>
-                  <p>Professora</p>
-                </div>
-              </div>
-              <!-- /team-item-->
-            </div>
-            <!-- col-lg-12-->
-            <div class="col-lg-12">
-              <!-- member 7-->
-              <div class="team-item">
-                <img src="img/team6.jpg" alt="" />
-                <div class="team-caption">
-                  <h5 class="text-light mb-0">Thatiany</h5>
-                  <p>Professora</p>
-                </div>
-              </div>
-              <!-- /team-item-->
-            </div>
-            <!-- col-lg-12-->
-            <div class="col-lg-12">
-              <!-- member 8-->
-              <div class="team-item">
-                <img src="img/team6.jpg" alt="" />
-                <div class="team-caption">
-                  <h5 class="text-light mb-0">Ana Paula</h5>
-                  <p>Cozinheira</p>
-                </div>
-              </div>
-              <!-- /team-item-->
-            </div>
-            <!-- col-lg-12-->
-            <div class="col-lg-12">
-              <!-- member 9-->
-              <div class="team-item">
-                <img src="img/team6.jpg" alt="" />
-                <div class="team-caption">
-                  <h5 class="text-light mb-0">Tio Oddi</h5>
-                  <p>Musicalização</p>
-                </div>
-              </div>
-              <!-- /team-item-->
-            </div>
-            <!-- col-lg-12-->
-            <div class="col-lg-12">
-              <!-- member 10-->
-              <div class="team-item">
-                <img src="img/team6.jpg" alt="" />
-                <div class="team-caption">
-                  <h5 class="text-light mb-0">Tia Priscila</h5>
-                  <p>Aulas de Inglês</p>
-                </div>
-              </div>
-              <!-- /team-item-->
-            </div>
-            <!-- col-lg-12-->
-            <div class="col-lg-12">
-              <!-- member 11-->
-              <div class="team-item">
-                <img src="img/team6.jpg" alt="" />
-                <div class="team-caption">
-                  <h5 class="text-light mb-0">Tia Débora</h5>
-                  <p>Libras</p>
-                </div>
-              </div>
-              <!-- /team-item-->
-            </div>
-            <!-- col-lg-12-->
-            <div class="col-lg-12">
-              <!-- member 12-->
-              <div class="team-item">
-                <img src="img/team6.jpg" alt="" />
-                <div class="team-caption">
-                  <h5 class="text-light mb-0">Tio Pires</h5>
-                  <p>Judô</p>
-                </div>
-              </div>
-              <!-- /team-item-->
-            </div>
-            <!-- col-lg-12-->
-            <div class="col-lg-12">
-              <!-- member 13-->
-              <div class="team-item">
-                <img src="img/team6.jpg" alt="" />
-                <div class="team-caption">
-                  <h5 class="text-light mb-0">TIO SECRETO</h5>
-                  <p>Futebol</p>
-                </div>
-              </div>
-              <!-- /team-item-->
-            </div>
-            <!-- col-lg-12-->
-            <div class="col-lg-12">
-              <!-- member 14-->
-              <div class="team-item">
-                <img src="img/team6.jpg" alt="" />
-                <div class="team-caption">
-                  <h5 class="text-light mb-0">Luane Vilar</h5>
-                  <p>Nutricionista</p>
-                </div>
-              </div>
-              <!-- /team-item-->
-            </div>
-            <!-- col-lg-12-->
+            <!--/team-slider -->
           </div>
-          <!--/team-slider -->
+          <!--/row-team-->
         </div>
-        <!--/row-team-->
       </div>
       <!--/container -->
-    </section>
-    <!-- Section ends -->
-    <!-- Parallax object -->
-    <div
-      class="parallax-object2 d-none d-lg-block"
-      data-0="opacity:1;"
-      data-start="margin-top:40%"
-      data-100="transform:translatey(0%);"
-      data-center-bottom="transform:translatey(-220%);"
-    >
-      <!-- Image -->
-      <img src="img/parallaxobject2.png" alt="" />
-    </div>
-    <!-- Seção Calendário -->
-    <section id="latestblog">
-      <div class="container">
-        <!-- Section Heading -->
-        <div class="section-heading">
-          <h2>Calendário</h2>
-        </div>
-        <!-- Carousel -->
-        <div class="col-lg-12 color_block">
-          <div class="slider-3"></div>
-          <!-- /slider -->
-        </div>
-        <!-- /col-lg -->
-      </div>
-      <!-- /container -->
     </section>
     <!-- Section ends -->
     <!-- Parallax object -->
@@ -2913,6 +2787,8 @@
       <!-- Image -->
       <img src="img/parallaxobject3.png" alt="" />
     </div>
+    <!-- Seção Calendário Desativada -->
+
     <!-- Section Call to Action -->
     <section id="call-to-action" class="small-section">
       <div class="container text-center">
@@ -2930,6 +2806,7 @@
               <a
                 class="btn"
                 href="https://www.instagram.com/colegiomaranatasorocaba/"
+                target="_blank"
                 >Siga-nos</a
               >
             </div>
@@ -2962,7 +2839,7 @@
                 ><a
                   href="mailto:youremailaddress?body=Olá%20gostaria%20de%20obter%20mais%20informações%20sobre%20a%20escola."
                 >
-                  contato@colegiomaranata.com.br</a
+                  secretaria@colegiomaranata.com.br</a
                 >
               </p>
               <p>
@@ -3137,18 +3014,22 @@
             /></a>
             <!-- social-icons -->
             <div class="social-media text-center mt-3">
+              <!-- Desativado
               <a href="#" title="Facebook"
                 ><i class="fa-brands fa-facebook-f" target="_blank"></i
               ></a>
+              -->
               <a
                 href="https://www.instagram.com/colegiomaranatasorocaba/"
                 title="Instagram"
                 target="_blank"
                 ><i class="fa-brands fa-instagram"></i
               ></a>
+              <!-- Desativado
               <a href="#" title="Linkedin"
                 ><i class="fa-brands fa-linkedin" target="_blank"></i
               ></a>
+              -->
               <a
                 href=" https://wa.me/5515981486709"
                 title="WhatsApp"
@@ -3189,6 +3070,12 @@
       </p>
       <!-- /container -->
       <!-- Go To Top Link -->
+      <div class="whatsapp-float">
+        <a href="https://wa.me/5515981486709" target="_blank">
+          <i class="fa fa-whatsapp"></i
+          ><span>WhatsApp<br /><small>(15) 98148-6709</small></span>
+        </a>
+      </div>
       <div class="page-scroll d-none d-lg-block">
         <a href="#page-top" class="back-to-top"
           ><i class="fa fa-angle-up"></i
@@ -3222,7 +3109,5 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-
-    <script src="js/script.js"></script>
   </body>
 </html>
